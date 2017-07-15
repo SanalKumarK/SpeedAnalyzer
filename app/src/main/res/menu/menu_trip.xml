@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dyolab.speedanalyzer.TripActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_trip"
+        android:orderInCategory="100"
+        android:title="@string/add_trip_btn"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_delete_trip"
+        android:orderInCategory="100"
+        android:title="@string/add_trip_btn"
+        android:icon="@android:drawable/ic_input_delete"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+</menu>

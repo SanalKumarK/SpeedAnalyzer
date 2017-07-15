@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="textSize">20dp</dimen>
+
+    <!-- For Trip List Array Style-->
+    <dimen name="list_font_size">25dp</dimen>
+    <dimen name="list_comp_padding">10dp</dimen>
+</resources>

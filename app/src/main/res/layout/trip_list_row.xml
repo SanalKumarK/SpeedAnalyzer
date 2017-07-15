@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="@dimen/list_comp_padding"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/start_trip"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_start_trip_btn"
+            android:background="@null"
+            android:contentDescription="@string/start_trip"/>
+
+        <ImageButton
+            android:id="@+id/stop_trip"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_stop_trip_btn"
+            android:background="@null"
+            android:contentDescription="@string/stop_trip"/>
+
+        <ImageButton
+            android:id="@+id/trip_report"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_report_btn"
+            android:background="@null"
+            android:contentDescription="@string/trip_report" />
+    </LinearLayout>
+
+</RelativeLayout>
