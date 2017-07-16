@@ -1,0 +1,4 @@
+For integrating OAuth with gmail.
+- Verify APK Signed certificate,
+- Create Google-services.json file with the verified APK SHA1 details.
+- Credentials will be added to the Dev console project with API play services
