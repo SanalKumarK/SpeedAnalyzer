@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "400736214254",
+    "project_id": "trip-guardian"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400736214254:android:021e79a58701534e",
+        "android_client_info": {
+          "package_name": "com.dyolab.speedanalyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400736214254-gac9ejvsqtd4aib57psi8rtfqob8nprm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dyolab.speedanalyzer",
+            "certificate_hash": "39aee40c88c678d1cce0394e823d5bd32b451bda"
+          }
+        },
+        {
+          "client_id": "400736214254-5g41o5qatvipr5htcnlrjsnbdgipgfat.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "400736214254-ar36vlt10f6ipkbvi0qoora0q1snu0t4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dyolab.speedanalyzer",
+            "certificate_hash": "9c1ce6bb404a747b39254406ea6190c5f7c1edb6"
+          }
+        },
+        {
+          "client_id": "400736214254-8sfg9vofo7rlgpd1bv7qvtsor5r48qdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dyolab.speedanalyzer",
+            "certificate_hash": "24c10977b8d520c6cd7b50e1bf95d1fb8e084550"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMJOzCTIzxr-z6lIjSD01lerfMM0yPvFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
